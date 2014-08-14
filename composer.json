@@ -2,7 +2,9 @@
     "name": "jhancock/yii2-version-assetmgr",
     "description": "Yii2 asset manager that hashes based on application version instead of mtime. Useful for load balanced sites.",
     "homepage": "https://github.com/jasonhancock/yii2-version-assetmgr",
-    "license": "MIT",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "assetmanager"],
+    "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Jason Hancock",
@@ -11,12 +13,16 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/jasonhancock/yii2-version-assetmgr/issues"
+        "issues": "https://github.com/jasonhancock/yii2-version-assetmgr/issues",
+        "source": "https://github.com/jasonhancock/yii2-version-assetmgr"
     },
     "autoload": {
         "psr-4" : {
             "jhancock\\VersionAssetMgr\\" : "src/"
         }
+    },
+    "require": {
+        "yiisoft/yii2": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "4.1.*"
